@@ -1,8 +1,54 @@
 .logo_name{
-   
     color: rgba(228, 31, 97, 0.945) ;
     font-style: italic;
 }
-.btn_submit :hover{
-    background-color: rgb(141, 141, 253);
+.nav-item a{
+    color:#360d77;
+}       
+.h1_welcome{
+    color: rgba(228, 31, 97, 0.945);
+    font-style: italic;
 }
+.container-fluid{
+    margin-top: -10px;
+}
+.pb_foodsPoint{
+    color: rgba(228, 31, 97, 0.945) ;
+    font-style: italic;
+}
+.pb_choose{
+    color: #65bddad8;
+}
+.img-fluid{
+
+    
+}
+.col{
+    position: relative;
+    width: 50%;
+    background-color: light;
+}
+.text-container{
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {   
+    .input-group {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {  /* Mobile breakpoint */
+    .img-fluid{
+     height: 200px;
+    
+    }
+  }
+ 
