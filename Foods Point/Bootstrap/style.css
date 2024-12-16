@@ -55,3 +55,29 @@
     color: #65bddad8;
     font-style: italic;
  }
+ footer {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .bi {
+    font-size: 1.25rem;
+    transition: color 0.3s;
+}
+
+footer .bi:hover {
+    color: #ffc107; /* Gold-like hover color */
+}
+.h5_foot{
+    margin-top: -40px;
+    color: rgba(228, 31, 97, 0.945)
+}
+.social_foot{
+    text-align: end;
+   
+    width: 800px;
+}
